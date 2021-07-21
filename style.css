@@ -1,0 +1,13 @@
+body{
+    display: flexbox ;
+    background-color: yellow ;
+    contain: layout;
+}
+.amigo{
+ font-weight: 10px;
+ font-size: 100;
+ font-style: oblique;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.friend{
+
+ }
