@@ -1,3 +1,4 @@
+
 body{
     font-family: Arial, sans-serif;
     font-size: 20px ;
@@ -31,12 +32,25 @@ body{
 }
 .c2{
     width: 100%;
+    height: 100%;
 }
 .c1{
     width: 110%;
+    height: 100%;
+    
 }
 .c3{
     width: 200%;
 }
+@media screen and (min-width: 616px) {
+    body{
+        width: 800px;
+        margin: 0 auto;
+    }
+    }
+footer{
+    display: none;
+}
+
 
 
