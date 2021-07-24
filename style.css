@@ -1,13 +1,42 @@
 body{
-    display: flexbox ;
-    background-color: yellow ;
-    contain: layout;
+    font-family: Arial, sans-serif;
+    font-size: 20px ;
+    font-weight: 700;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
 }
-.amigo{
- font-weight: 10px;
- font-size: 100;
- font-style: oblique;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-.friend{
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
- }
+
+.amigo{
+    background-color: aqua;
+}
+.paragrafo1{
+    background-color: rgb(255, 189, 47);
+    width: auto;
+}
+.friend{
+    background-color: gray;
+}
+.paragrafo2{
+    background-color: rgb(240, 140, 157);
+    width: 100%;
+}
+.ami{
+    background-color: greenyellow;
+}
+.c2{
+    width: 100%;
+}
+.c1{
+    width: 110%;
+}
+.c3{
+    width: 200%;
+}
+
+
